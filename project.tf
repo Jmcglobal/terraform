@@ -1,3 +1,14 @@
+# 1. Create vpc
+# 2. Create Internet Gateway
+# 3. Create Custom Route Table
+# 4. Create a Subnet
+# 5. Associate Subnet with Route Table
+# 6. Create Security Group to allow port 22, 80, 443
+# 7. Create a network Interface with An IP in the subnet 
+# 8. Assign an Elestic IP to the network interface 
+# 9. Create ubuntu server and install / enable apache2
+
+
 provider "aws" {
     region = "enter your region"
     access_key = "Enter Your access key"
